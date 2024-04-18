@@ -1,0 +1,25 @@
+.about {
+    margin: 10vh;
+    .summary {
+        display: flex;
+        justify-content: center;
+        p {
+            width: 60%;
+            padding: 10px 20px;
+            text-align: justify;
+            text-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+        }
+        .profile-img {
+            width: 20%;
+            img{
+                border-radius: 100vh;
+                box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.35);
+            }
+        }
+    }
+    .content {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}

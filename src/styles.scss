@@ -1,11 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-$light-color: #E3FEF7;
-$dark-color: #003C43;
-$middle-dark-color: #135D66;
-$middle-light-color: #77B0AA;
+$background-color: white;
+$font-color: #000010;
 
 body {
     margin: 0px;
-    color: $light-color;
-    background-color: $dark-color;
+    color: $font-color;
+    background-color: $background-color;
 }

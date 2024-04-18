@@ -1,17 +1,21 @@
 <main class="main">
   <div class="content">
     <nav>
-      <img src="./assets/acla-logo.png" alt="logo" width="90px" height="55px">
+      <h1>ACLA</h1>
       <div class="links">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/projects">Projects</a></li>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/about">About</a></li>
+          <li><a routerLink="/projects">Projects</a></li>
         </ul>
       </div>
     </nav>
-    <h2>App</h2>
     <router-outlet />
+    <div class="footer-div">
+      <footer>
+        footer
+      </footer>
+    </div>
   </div>
 </main>
   
